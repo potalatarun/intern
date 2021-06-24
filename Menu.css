@@ -1,0 +1,57 @@
+.logo{
+    width: 150px;
+    height: 60px;
+    position: relative;
+    margin-right: 400px;
+}
+
+.nav-bar1{
+    display: flex;
+    list-style: none;
+    position: relative;
+}
+.nav-items{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.nav-bar{
+    background-color:black;
+    top: 0%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.logo-a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.logo-a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+
+.under-hover{
+    color: white;
+    top: 40px;
+}
+
+
+/*after menu*/
+
+
+
+.menu-options{
+    text-align: center;
+}
+
+.ordered-list{
+    background-color: black; color: white;
+}
+
+.order:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: orange;
+}
+/*after menu*/

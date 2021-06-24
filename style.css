@@ -32,6 +32,11 @@
     text-decoration: underline;
 }
 
+.under-hover{
+    color: white;
+    top: 40px;
+}
+
 /*body*/
 
 
@@ -55,25 +60,37 @@
   width: 50%;
   padding: 20px;
   text-align: center;
+  background-color:orange;
+}
+
+.one:hover{
+    text-decoration: underline;
+    
 }
 
 .two{
     position: absolute;
     /*width: 500px;*/
-    border: 3px solid #f1f1f1;
-    top: 80%;
+    border: 3px solid black;
+    top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
   width: 50%;
   padding: 20px;
   text-align: center;cursor: pointer;
+  background-color: orange;
 }
 
-.three{
+.two:hover{
+    text-decoration: underline;
+    
+}
+
+/*.three{
     position: absolute;
-    /*width: 500px;*/
-    border: 3px solid #d31616;
+    width: 500px;
+    border: 3px solid black;
     top: 110%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -81,8 +98,9 @@
   width: 50%;
   padding: 20px;
   text-align: center;cursor: pointer;
-  
+  background-color: rgb(155, 140, 113);
 }
+*/
 
 
 
@@ -97,6 +115,7 @@
     border-top: solid black 2px ;
     background-color: black;
     bottom: 0;
+    
 }
 
 
